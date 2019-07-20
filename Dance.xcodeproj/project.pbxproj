@@ -1,0 +1,1069 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71A67DE149EF872606405323 /* Pods_Dance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B1E4240D1DC0BC4D58059FE /* Pods_Dance.framework */; };
+		AB3C0E2DA104F92BA3955D3C /* Pods_DanceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6961F8A553FB2E4ED267A19 /* Pods_DanceTests.framework */; };
+		CD0D6A84A65EA59841EDEADF /* Pods_DanceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25528429A295AD8E3EFA3332 /* Pods_DanceUITests.framework */; };
+		CE0D27B2228A9C7D0066FA20 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0D27B1228A9C7D0066FA20 /* Model.swift */; };
+		CE15851222D5BAD50077D243 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE15851022D5BACE0077D243 /* APIManager.swift */; };
+		CE15851322D5D9890077D243 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0D27B1228A9C7D0066FA20 /* Model.swift */; };
+		CE15851422D5D98C0077D243 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE15851022D5BACE0077D243 /* APIManager.swift */; };
+		CE221ED322B38CE3007A1F33 /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE221ED222B38CE3007A1F33 /* GuideViewController.swift */; };
+		CE221ED522B4CD31007A1F33 /* Guide1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CE221ED422B4CD31007A1F33 /* Guide1.PNG */; };
+		CE221ED722B4CD38007A1F33 /* Guide2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CE221ED622B4CD37007A1F33 /* Guide2.PNG */; };
+		CE221ED922B4CD3E007A1F33 /* Guide3.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CE221ED822B4CD3D007A1F33 /* Guide3.PNG */; };
+		CE221EDB22B4CD43007A1F33 /* Guide4.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CE221EDA22B4CD43007A1F33 /* Guide4.PNG */; };
+		CE221EDD22B4CD48007A1F33 /* Guide5.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CE221EDC22B4CD48007A1F33 /* Guide5.PNG */; };
+		CE221EDF22B4EAA8007A1F33 /* Guide6.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CE221EDE22B4EAA7007A1F33 /* Guide6.PNG */; };
+		CE221EE122B4EAAE007A1F33 /* Guide7.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CE221EE022B4EAAE007A1F33 /* Guide7.PNG */; };
+		CE221EE322B4EAB8007A1F33 /* Guide8.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CE221EE222B4EAB8007A1F33 /* Guide8.PNG */; };
+		CE221EE522B4EABF007A1F33 /* Guide9.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CE221EE422B4EABF007A1F33 /* Guide9.PNG */; };
+		CE221EE722B4EAD1007A1F33 /* Guide10.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CE221EE622B4EAD1007A1F33 /* Guide10.PNG */; };
+		CE3A956522A358140002DD9D /* no_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE3A956422A358140002DD9D /* no_image.jpg */; };
+		CE3C910B228C1541003EA85E /* list-simple-7.png in Resources */ = {isa = PBXBuildFile; fileRef = CE3C910A228C1540003EA85E /* list-simple-7.png */; };
+		CE3F413922BA3559006F83BA /* StudentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F413822BA3559006F83BA /* StudentDetailViewController.swift */; };
+		CE3F413B22BCB459006F83BA /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F413A22BCB458006F83BA /* QuestionView.swift */; };
+		CE3F413D22BCBD4E006F83BA /* RuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F413C22BCBD4E006F83BA /* RuleView.swift */; };
+		CE3F413F22BCC92E006F83BA /* SelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F413E22BCC92E006F83BA /* SelectView.swift */; };
+		CE3F414122BCCE58006F83BA /* StudioMoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F414022BCCE58006F83BA /* StudioMoneyView.swift */; };
+		CE3F414322C1C8B2006F83BA /* TeacherDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F414222C1C8B2006F83BA /* TeacherDetailView.swift */; };
+		CE3F414522C5E1D4006F83BA /* teacherDetalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F414422C5E1D3006F83BA /* teacherDetalModel.swift */; };
+		CE3F414722C67173006F83BA /* ImageNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F414622C67173006F83BA /* ImageNameViewController.swift */; };
+		CE521242228176B600AFCC59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE521241228176B600AFCC59 /* AppDelegate.swift */; };
+		CE521247228176B600AFCC59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE521245228176B600AFCC59 /* Main.storyboard */; };
+		CE521249228176BA00AFCC59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE521248228176BA00AFCC59 /* Assets.xcassets */; };
+		CE52124C228176BA00AFCC59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE52124A228176BA00AFCC59 /* LaunchScreen.storyboard */; };
+		CE521257228176BA00AFCC59 /* DanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE521256228176BA00AFCC59 /* DanceTests.swift */; };
+		CE521262228176BA00AFCC59 /* DanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE521261228176BA00AFCC59 /* DanceUITests.swift */; };
+		CE9CB87222AF95A10027BBCD /* LessonCreate2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9CB87122AF95A10027BBCD /* LessonCreate2ViewController.swift */; };
+		CEADB7D1228881B400546A14 /* noImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEADB7D0228881B400546A14 /* noImage.jpg */; };
+		CEADB7D422892E7B00546A14 /* message-7.png in Resources */ = {isa = PBXBuildFile; fileRef = CEADB7D322892E7B00546A14 /* message-7.png */; };
+		CEADB7D622892E9300546A14 /* home-7.png in Resources */ = {isa = PBXBuildFile; fileRef = CEADB7D522892E9300546A14 /* home-7.png */; };
+		CEADB7D822892F1C00546A14 /* circle-user-7.png in Resources */ = {isa = PBXBuildFile; fileRef = CEADB7D722892F1C00546A14 /* circle-user-7.png */; };
+		CEFFCC1722A77A5800BB3A4B /* TeacherRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFCC1522A77A5800BB3A4B /* TeacherRegisterViewController.swift */; };
+		CEFFCC1822A77A5800BB3A4B /* StudentRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFCC1622A77A5800BB3A4B /* StudentRegisterViewController.swift */; };
+		CEFFCC1F22A77B2200BB3A4B /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFCC1A22A77B2200BB3A4B /* SelectViewController.swift */; };
+		CEFFCC2022A77B2200BB3A4B /* RuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFCC1B22A77B2200BB3A4B /* RuleViewController.swift */; };
+		CEFFCC2122A77B2200BB3A4B /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFCC1C22A77B2200BB3A4B /* QuestionViewController.swift */; };
+		CEFFCC2222A77B2200BB3A4B /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFCC1E22A77B2200BB3A4B /* Extension.swift */; };
+		CEFFCC2E22A77B8B00BB3A4B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFCC2422A77B8B00BB3A4B /* ChatViewController.swift */; };
+		CEFFCC2F22A77B8B00BB3A4B /* LessonScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFCC2522A77B8B00BB3A4B /* LessonScanViewController.swift */; };
+		CEFFCC3122A77B8B00BB3A4B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFCC2722A77B8B00BB3A4B /* HomeViewController.swift */; };
+		CEFFCC3222A77B8B00BB3A4B /* ProfileEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFCC2822A77B8B00BB3A4B /* ProfileEditViewController.swift */; };
+		CEFFCC3322A77B8B00BB3A4B /* ChatDetail2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFCC2922A77B8B00BB3A4B /* ChatDetail2ViewController.swift */; };
+		CEFFCC3422A77B8B00BB3A4B /* TeacherDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFCC2A22A77B8B00BB3A4B /* TeacherDetailViewController.swift */; };
+		CEFFCC3522A77B8B00BB3A4B /* TeachersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFCC2B22A77B8B00BB3A4B /* TeachersCollectionViewCell.swift */; };
+		CEFFCC3622A77B8B00BB3A4B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFCC2C22A77B8B00BB3A4B /* ProfileViewController.swift */; };
+		CEFFCC3722A77B8B00BB3A4B /* StudioMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFCC2D22A77B8B00BB3A4B /* StudioMoneyViewController.swift */; };
+		CEFFCC3922A77BE000BB3A4B /* TeacherLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFCC3822A77BE000BB3A4B /* TeacherLoginViewController.swift */; };
+		CEFFCC3B22A77BF500BB3A4B /* StudentLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFCC3A22A77BF500BB3A4B /* StudentLoginViewController.swift */; };
+		CEFFCC3E22A81B3200BB3A4B /* objective.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFCC3D22A81B3100BB3A4B /* objective.swift */; };
+		CEFFCC3F22A81B6100BB3A4B /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFCC1E22A77B2200BB3A4B /* Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE521253228176BA00AFCC59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE521236228176B600AFCC59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE52123D228176B600AFCC59;
+			remoteInfo = Dance;
+		};
+		CE52125E228176BA00AFCC59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE521236228176B600AFCC59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE52123D228176B600AFCC59;
+			remoteInfo = Dance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25528429A295AD8E3EFA3332 /* Pods_DanceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DanceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58D4EA4B13C1B1236BEB6113 /* Pods-DanceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanceUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DanceUITests/Pods-DanceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		862548C1DD916213CB3312AE /* Pods-DanceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanceUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DanceUITests/Pods-DanceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B016AC73CE4BB57717494B5 /* Pods-DanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DanceTests/Pods-DanceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B1E4240D1DC0BC4D58059FE /* Pods_Dance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6961F8A553FB2E4ED267A19 /* Pods_DanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FEBD1D5F060E2ABE07C970 /* Pods-Dance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dance.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dance/Pods-Dance.release.xcconfig"; sourceTree = "<group>"; };
+		B6D5CA228EE1DA7D5B9AD2D8 /* Pods-DanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DanceTests/Pods-DanceTests.release.xcconfig"; sourceTree = "<group>"; };
+		BD7E0072BB64C7D399829FFB /* Pods-Dance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dance.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dance/Pods-Dance.debug.xcconfig"; sourceTree = "<group>"; };
+		CE0D27AE22894B720066FA20 /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+		CE0D27B1228A9C7D0066FA20 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CE15851022D5BACE0077D243 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIManager.swift; path = DanceTests/APIManager.swift; sourceTree = SOURCE_ROOT; };
+		CE221ED222B38CE3007A1F33 /* GuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
+		CE221ED422B4CD31007A1F33 /* Guide1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Guide1.PNG; sourceTree = "<group>"; };
+		CE221ED622B4CD37007A1F33 /* Guide2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Guide2.PNG; sourceTree = "<group>"; };
+		CE221ED822B4CD3D007A1F33 /* Guide3.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Guide3.PNG; sourceTree = "<group>"; };
+		CE221EDA22B4CD43007A1F33 /* Guide4.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Guide4.PNG; sourceTree = "<group>"; };
+		CE221EDC22B4CD48007A1F33 /* Guide5.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Guide5.PNG; sourceTree = "<group>"; };
+		CE221EDE22B4EAA7007A1F33 /* Guide6.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Guide6.PNG; sourceTree = "<group>"; };
+		CE221EE022B4EAAE007A1F33 /* Guide7.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Guide7.PNG; sourceTree = "<group>"; };
+		CE221EE222B4EAB8007A1F33 /* Guide8.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Guide8.PNG; sourceTree = "<group>"; };
+		CE221EE422B4EABF007A1F33 /* Guide9.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Guide9.PNG; sourceTree = "<group>"; };
+		CE221EE622B4EAD1007A1F33 /* Guide10.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Guide10.PNG; sourceTree = "<group>"; };
+		CE3A956422A358140002DD9D /* no_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = no_image.jpg; sourceTree = "<group>"; };
+		CE3C910A228C1540003EA85E /* list-simple-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-simple-7.png"; sourceTree = "<group>"; };
+		CE3F413822BA3559006F83BA /* StudentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetailViewController.swift; sourceTree = "<group>"; };
+		CE3F413A22BCB458006F83BA /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		CE3F413C22BCBD4E006F83BA /* RuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleView.swift; sourceTree = "<group>"; };
+		CE3F413E22BCC92E006F83BA /* SelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectView.swift; sourceTree = "<group>"; };
+		CE3F414022BCCE58006F83BA /* StudioMoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioMoneyView.swift; sourceTree = "<group>"; };
+		CE3F414222C1C8B2006F83BA /* TeacherDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherDetailView.swift; sourceTree = "<group>"; };
+		CE3F414422C5E1D3006F83BA /* teacherDetalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teacherDetalModel.swift; sourceTree = "<group>"; };
+		CE3F414622C67173006F83BA /* ImageNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageNameViewController.swift; path = ../ImageNameViewController.swift; sourceTree = "<group>"; };
+		CE52123E228176B600AFCC59 /* Dance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE521241228176B600AFCC59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE521246228176B600AFCC59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE521248228176BA00AFCC59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE52124B228176BA00AFCC59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE52124D228176BA00AFCC59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE521252228176BA00AFCC59 /* DanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE521256228176BA00AFCC59 /* DanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceTests.swift; sourceTree = "<group>"; };
+		CE521258228176BA00AFCC59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE52125D228176BA00AFCC59 /* DanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE521261228176BA00AFCC59 /* DanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceUITests.swift; sourceTree = "<group>"; };
+		CE521263228176BA00AFCC59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9CB87122AF95A10027BBCD /* LessonCreate2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonCreate2ViewController.swift; sourceTree = "<group>"; };
+		CEADB7D0228881B400546A14 /* noImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noImage.jpg; sourceTree = "<group>"; };
+		CEADB7D322892E7B00546A14 /* message-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "message-7.png"; sourceTree = "<group>"; };
+		CEADB7D522892E9300546A14 /* home-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-7.png"; sourceTree = "<group>"; };
+		CEADB7D722892F1C00546A14 /* circle-user-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-user-7.png"; sourceTree = "<group>"; };
+		CEFFCC1522A77A5800BB3A4B /* TeacherRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherRegisterViewController.swift; sourceTree = "<group>"; };
+		CEFFCC1622A77A5800BB3A4B /* StudentRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentRegisterViewController.swift; sourceTree = "<group>"; };
+		CEFFCC1A22A77B2200BB3A4B /* SelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		CEFFCC1B22A77B2200BB3A4B /* RuleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RuleViewController.swift; sourceTree = "<group>"; };
+		CEFFCC1C22A77B2200BB3A4B /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		CEFFCC1D22A77B2200BB3A4B /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CEFFCC1E22A77B2200BB3A4B /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		CEFFCC2422A77B8B00BB3A4B /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		CEFFCC2522A77B8B00BB3A4B /* LessonScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonScanViewController.swift; sourceTree = "<group>"; };
+		CEFFCC2722A77B8B00BB3A4B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CEFFCC2822A77B8B00BB3A4B /* ProfileEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileEditViewController.swift; sourceTree = "<group>"; };
+		CEFFCC2922A77B8B00BB3A4B /* ChatDetail2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatDetail2ViewController.swift; sourceTree = "<group>"; };
+		CEFFCC2A22A77B8B00BB3A4B /* TeacherDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherDetailViewController.swift; sourceTree = "<group>"; };
+		CEFFCC2B22A77B8B00BB3A4B /* TeachersCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeachersCollectionViewCell.swift; sourceTree = "<group>"; };
+		CEFFCC2C22A77B8B00BB3A4B /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CEFFCC2D22A77B8B00BB3A4B /* StudioMoneyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudioMoneyViewController.swift; sourceTree = "<group>"; };
+		CEFFCC3822A77BE000BB3A4B /* TeacherLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherLoginViewController.swift; sourceTree = "<group>"; };
+		CEFFCC3A22A77BF500BB3A4B /* StudentLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLoginViewController.swift; sourceTree = "<group>"; };
+		CEFFCC3D22A81B3100BB3A4B /* objective.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = objective.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE52123B228176B600AFCC59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A67DE149EF872606405323 /* Pods_Dance.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE52124F228176BA00AFCC59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3C0E2DA104F92BA3955D3C /* Pods_DanceTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE52125A228176BA00AFCC59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0D6A84A65EA59841EDEADF /* Pods_DanceUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98C49F85E5C85F0DC27B4C08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD7E0072BB64C7D399829FFB /* Pods-Dance.debug.xcconfig */,
+				A6FEBD1D5F060E2ABE07C970 /* Pods-Dance.release.xcconfig */,
+				9B016AC73CE4BB57717494B5 /* Pods-DanceTests.debug.xcconfig */,
+				B6D5CA228EE1DA7D5B9AD2D8 /* Pods-DanceTests.release.xcconfig */,
+				862548C1DD916213CB3312AE /* Pods-DanceUITests.debug.xcconfig */,
+				58D4EA4B13C1B1236BEB6113 /* Pods-DanceUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE521235228176B600AFCC59 = {
+			isa = PBXGroup;
+			children = (
+				CE521240228176B600AFCC59 /* Dance */,
+				CE521255228176BA00AFCC59 /* DanceTests */,
+				CE521260228176BA00AFCC59 /* DanceUITests */,
+				CE52123F228176B600AFCC59 /* Products */,
+				98C49F85E5C85F0DC27B4C08 /* Pods */,
+				E36999250D1DCC374CA4792D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE52123F228176B600AFCC59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE52123E228176B600AFCC59 /* Dance.app */,
+				CE521252228176BA00AFCC59 /* DanceTests.xctest */,
+				CE52125D228176BA00AFCC59 /* DanceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE521240228176B600AFCC59 /* Dance */ = {
+			isa = PBXGroup;
+			children = (
+				CE0D27AE22894B720066FA20 /* bridge.h */,
+				CE521241228176B600AFCC59 /* AppDelegate.swift */,
+				CEFFCC2322A77B8B00BB3A4B /* View */,
+				CEFFCC1922A77B2200BB3A4B /* Other */,
+				CEFFCC1422A77A5800BB3A4B /* User */,
+				CE0D27B1228A9C7D0066FA20 /* Model.swift */,
+				CE15851022D5BACE0077D243 /* APIManager.swift */,
+				CE521245228176B600AFCC59 /* Main.storyboard */,
+				CE521248228176BA00AFCC59 /* Assets.xcassets */,
+				CEADB7D0228881B400546A14 /* noImage.jpg */,
+				CE3A956422A358140002DD9D /* no_image.jpg */,
+				CEADB7D522892E9300546A14 /* home-7.png */,
+				CE3C910A228C1540003EA85E /* list-simple-7.png */,
+				CEADB7D322892E7B00546A14 /* message-7.png */,
+				CE221ED422B4CD31007A1F33 /* Guide1.PNG */,
+				CE221ED622B4CD37007A1F33 /* Guide2.PNG */,
+				CE221ED822B4CD3D007A1F33 /* Guide3.PNG */,
+				CE221EE222B4EAB8007A1F33 /* Guide8.PNG */,
+				CE221EE622B4EAD1007A1F33 /* Guide10.PNG */,
+				CE221EE022B4EAAE007A1F33 /* Guide7.PNG */,
+				CE221EDA22B4CD43007A1F33 /* Guide4.PNG */,
+				CE221EE422B4EABF007A1F33 /* Guide9.PNG */,
+				CE221EDE22B4EAA7007A1F33 /* Guide6.PNG */,
+				CE221EDC22B4CD48007A1F33 /* Guide5.PNG */,
+				CEADB7D722892F1C00546A14 /* circle-user-7.png */,
+				CE52124A228176BA00AFCC59 /* LaunchScreen.storyboard */,
+				CE52124D228176BA00AFCC59 /* Info.plist */,
+			);
+			path = Dance;
+			sourceTree = "<group>";
+		};
+		CE521255228176BA00AFCC59 /* DanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE521256228176BA00AFCC59 /* DanceTests.swift */,
+				CE521258228176BA00AFCC59 /* Info.plist */,
+			);
+			path = DanceTests;
+			sourceTree = "<group>";
+		};
+		CE521260228176BA00AFCC59 /* DanceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE521261228176BA00AFCC59 /* DanceUITests.swift */,
+				CE521263228176BA00AFCC59 /* Info.plist */,
+			);
+			path = DanceUITests;
+			sourceTree = "<group>";
+		};
+		CEFFCC1422A77A5800BB3A4B /* User */ = {
+			isa = PBXGroup;
+			children = (
+				CEFFCC3822A77BE000BB3A4B /* TeacherLoginViewController.swift */,
+				CEFFCC1522A77A5800BB3A4B /* TeacherRegisterViewController.swift */,
+				CEFFCC3A22A77BF500BB3A4B /* StudentLoginViewController.swift */,
+				CEFFCC1622A77A5800BB3A4B /* StudentRegisterViewController.swift */,
+			);
+			name = User;
+			path = Dance/User;
+			sourceTree = SOURCE_ROOT;
+		};
+		CEFFCC1922A77B2200BB3A4B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CE3F413E22BCC92E006F83BA /* SelectView.swift */,
+				CEFFCC1A22A77B2200BB3A4B /* SelectViewController.swift */,
+				CE3F413C22BCBD4E006F83BA /* RuleView.swift */,
+				CEFFCC1B22A77B2200BB3A4B /* RuleViewController.swift */,
+				CEFFCC1C22A77B2200BB3A4B /* QuestionViewController.swift */,
+				CE3F413A22BCB458006F83BA /* QuestionView.swift */,
+				CE3F414622C67173006F83BA /* ImageNameViewController.swift */,
+				CEFFCC1D22A77B2200BB3A4B /* MyPlayground.playground */,
+				CEFFCC1E22A77B2200BB3A4B /* Extension.swift */,
+				CEFFCC3D22A81B3100BB3A4B /* objective.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		CEFFCC2322A77B8B00BB3A4B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEFFCC2422A77B8B00BB3A4B /* ChatViewController.swift */,
+				CEFFCC2522A77B8B00BB3A4B /* LessonScanViewController.swift */,
+				CE9CB87122AF95A10027BBCD /* LessonCreate2ViewController.swift */,
+				CEFFCC2722A77B8B00BB3A4B /* HomeViewController.swift */,
+				CEFFCC2822A77B8B00BB3A4B /* ProfileEditViewController.swift */,
+				CEFFCC2922A77B8B00BB3A4B /* ChatDetail2ViewController.swift */,
+				CEFFCC2A22A77B8B00BB3A4B /* TeacherDetailViewController.swift */,
+				CE3F414422C5E1D3006F83BA /* teacherDetalModel.swift */,
+				CE3F414222C1C8B2006F83BA /* TeacherDetailView.swift */,
+				CE3F413822BA3559006F83BA /* StudentDetailViewController.swift */,
+				CEFFCC2B22A77B8B00BB3A4B /* TeachersCollectionViewCell.swift */,
+				CEFFCC2C22A77B8B00BB3A4B /* ProfileViewController.swift */,
+				CEFFCC2D22A77B8B00BB3A4B /* StudioMoneyViewController.swift */,
+				CE3F414022BCCE58006F83BA /* StudioMoneyView.swift */,
+				CE221ED222B38CE3007A1F33 /* GuideViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E36999250D1DCC374CA4792D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B1E4240D1DC0BC4D58059FE /* Pods_Dance.framework */,
+				A6961F8A553FB2E4ED267A19 /* Pods_DanceTests.framework */,
+				25528429A295AD8E3EFA3332 /* Pods_DanceUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE52123D228176B600AFCC59 /* Dance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE521266228176BA00AFCC59 /* Build configuration list for PBXNativeTarget "Dance" */;
+			buildPhases = (
+				430157F2095287CB6D4C7504 /* [CP] Check Pods Manifest.lock */,
+				CE52123A228176B600AFCC59 /* Sources */,
+				CE52123B228176B600AFCC59 /* Frameworks */,
+				CE52123C228176B600AFCC59 /* Resources */,
+				667C4943C700B0CA3EC2C475 /* [CP] Embed Pods Frameworks */,
+				C89C40A1944CFB6B0951B1D0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dance;
+			productName = Dance;
+			productReference = CE52123E228176B600AFCC59 /* Dance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE521251228176BA00AFCC59 /* DanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE521269228176BA00AFCC59 /* Build configuration list for PBXNativeTarget "DanceTests" */;
+			buildPhases = (
+				D192F39E9EA8C3B4BD477AA3 /* [CP] Check Pods Manifest.lock */,
+				CE52124E228176BA00AFCC59 /* Sources */,
+				CE52124F228176BA00AFCC59 /* Frameworks */,
+				CE521250228176BA00AFCC59 /* Resources */,
+				FAEF7405026B761CE1CAEAF4 /* [CP] Embed Pods Frameworks */,
+				1F935BD98736A82C44B75464 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE521254228176BA00AFCC59 /* PBXTargetDependency */,
+			);
+			name = DanceTests;
+			productName = DanceTests;
+			productReference = CE521252228176BA00AFCC59 /* DanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE52125C228176BA00AFCC59 /* DanceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE52126C228176BA00AFCC59 /* Build configuration list for PBXNativeTarget "DanceUITests" */;
+			buildPhases = (
+				7B3C6160E29BBF33B81CD6E4 /* [CP] Check Pods Manifest.lock */,
+				CE521259228176BA00AFCC59 /* Sources */,
+				CE52125A228176BA00AFCC59 /* Frameworks */,
+				CE52125B228176BA00AFCC59 /* Resources */,
+				5DB87EACDAD04F65F56923D4 /* [CP] Embed Pods Frameworks */,
+				5D210437C7405C5BE3CAB544 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE52125F228176BA00AFCC59 /* PBXTargetDependency */,
+			);
+			name = DanceUITests;
+			productName = DanceUITests;
+			productReference = CE52125D228176BA00AFCC59 /* DanceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE521236228176B600AFCC59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = shogo;
+				TargetAttributes = {
+					CE52123D228176B600AFCC59 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					CE521251228176BA00AFCC59 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = CE52123D228176B600AFCC59;
+					};
+					CE52125C228176BA00AFCC59 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = CE52123D228176B600AFCC59;
+					};
+				};
+			};
+			buildConfigurationList = CE521239228176B600AFCC59 /* Build configuration list for PBXProject "Dance" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE521235228176B600AFCC59;
+			productRefGroup = CE52123F228176B600AFCC59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE52123D228176B600AFCC59 /* Dance */,
+				CE521251228176BA00AFCC59 /* DanceTests */,
+				CE52125C228176BA00AFCC59 /* DanceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE52123C228176B600AFCC59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE221EE522B4EABF007A1F33 /* Guide9.PNG in Resources */,
+				CE221EDB22B4CD43007A1F33 /* Guide4.PNG in Resources */,
+				CE52124C228176BA00AFCC59 /* LaunchScreen.storyboard in Resources */,
+				CE221EE122B4EAAE007A1F33 /* Guide7.PNG in Resources */,
+				CE221EE722B4EAD1007A1F33 /* Guide10.PNG in Resources */,
+				CEADB7D1228881B400546A14 /* noImage.jpg in Resources */,
+				CE221ED722B4CD38007A1F33 /* Guide2.PNG in Resources */,
+				CEADB7D622892E9300546A14 /* home-7.png in Resources */,
+				CE3C910B228C1541003EA85E /* list-simple-7.png in Resources */,
+				CE221EDD22B4CD48007A1F33 /* Guide5.PNG in Resources */,
+				CE221ED522B4CD31007A1F33 /* Guide1.PNG in Resources */,
+				CE221ED922B4CD3E007A1F33 /* Guide3.PNG in Resources */,
+				CE221EDF22B4EAA8007A1F33 /* Guide6.PNG in Resources */,
+				CE521249228176BA00AFCC59 /* Assets.xcassets in Resources */,
+				CE3A956522A358140002DD9D /* no_image.jpg in Resources */,
+				CE521247228176B600AFCC59 /* Main.storyboard in Resources */,
+				CEADB7D822892F1C00546A14 /* circle-user-7.png in Resources */,
+				CEADB7D422892E7B00546A14 /* message-7.png in Resources */,
+				CE221EE322B4EAB8007A1F33 /* Guide8.PNG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE521250228176BA00AFCC59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE52125B228176BA00AFCC59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F935BD98736A82C44B75464 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DanceTests/Pods-DanceTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		430157F2095287CB6D4C7504 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dance-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D210437C7405C5BE3CAB544 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DanceUITests/Pods-DanceUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DB87EACDAD04F65F56923D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DanceUITests/Pods-DanceUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		667C4943C700B0CA3EC2C475 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Dance/Pods-Dance-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dance/Pods-Dance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B3C6160E29BBF33B81CD6E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DanceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C89C40A1944CFB6B0951B1D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dance/Pods-Dance-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D192F39E9EA8C3B4BD477AA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DanceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAEF7405026B761CE1CAEAF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DanceTests/Pods-DanceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE52123A228176B600AFCC59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFFCC1722A77A5800BB3A4B /* TeacherRegisterViewController.swift in Sources */,
+				CEFFCC2F22A77B8B00BB3A4B /* LessonScanViewController.swift in Sources */,
+				CEFFCC3622A77B8B00BB3A4B /* ProfileViewController.swift in Sources */,
+				CEFFCC3122A77B8B00BB3A4B /* HomeViewController.swift in Sources */,
+				CEFFCC3B22A77BF500BB3A4B /* StudentLoginViewController.swift in Sources */,
+				CEFFCC3722A77B8B00BB3A4B /* StudioMoneyViewController.swift in Sources */,
+				CE3F414522C5E1D4006F83BA /* teacherDetalModel.swift in Sources */,
+				CE3F414122BCCE58006F83BA /* StudioMoneyView.swift in Sources */,
+				CE3F413F22BCC92E006F83BA /* SelectView.swift in Sources */,
+				CE3F414322C1C8B2006F83BA /* TeacherDetailView.swift in Sources */,
+				CE521242228176B600AFCC59 /* AppDelegate.swift in Sources */,
+				CE0D27B2228A9C7D0066FA20 /* Model.swift in Sources */,
+				CEFFCC2122A77B2200BB3A4B /* QuestionViewController.swift in Sources */,
+				CEFFCC3922A77BE000BB3A4B /* TeacherLoginViewController.swift in Sources */,
+				CEFFCC3522A77B8B00BB3A4B /* TeachersCollectionViewCell.swift in Sources */,
+				CEFFCC2222A77B2200BB3A4B /* Extension.swift in Sources */,
+				CE9CB87222AF95A10027BBCD /* LessonCreate2ViewController.swift in Sources */,
+				CEFFCC3E22A81B3200BB3A4B /* objective.swift in Sources */,
+				CEFFCC3322A77B8B00BB3A4B /* ChatDetail2ViewController.swift in Sources */,
+				CEFFCC2E22A77B8B00BB3A4B /* ChatViewController.swift in Sources */,
+				CE3F413B22BCB459006F83BA /* QuestionView.swift in Sources */,
+				CEFFCC1822A77A5800BB3A4B /* StudentRegisterViewController.swift in Sources */,
+				CE3F413922BA3559006F83BA /* StudentDetailViewController.swift in Sources */,
+				CE3F414722C67173006F83BA /* ImageNameViewController.swift in Sources */,
+				CE221ED322B38CE3007A1F33 /* GuideViewController.swift in Sources */,
+				CEFFCC2022A77B2200BB3A4B /* RuleViewController.swift in Sources */,
+				CEFFCC3422A77B8B00BB3A4B /* TeacherDetailViewController.swift in Sources */,
+				CEFFCC1F22A77B2200BB3A4B /* SelectViewController.swift in Sources */,
+				CEFFCC3222A77B8B00BB3A4B /* ProfileEditViewController.swift in Sources */,
+				CE15851222D5BAD50077D243 /* APIManager.swift in Sources */,
+				CE3F413D22BCBD4E006F83BA /* RuleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE52124E228176BA00AFCC59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE15851422D5D98C0077D243 /* APIManager.swift in Sources */,
+				CE15851322D5D9890077D243 /* Model.swift in Sources */,
+				CE521257228176BA00AFCC59 /* DanceTests.swift in Sources */,
+				CEFFCC3F22A81B6100BB3A4B /* Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE521259228176BA00AFCC59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE521262228176BA00AFCC59 /* DanceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE521254228176BA00AFCC59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE52123D228176B600AFCC59 /* Dance */;
+			targetProxy = CE521253228176BA00AFCC59 /* PBXContainerItemProxy */;
+		};
+		CE52125F228176BA00AFCC59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE52123D228176B600AFCC59 /* Dance */;
+			targetProxy = CE52125E228176BA00AFCC59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE521245228176B600AFCC59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE521246228176B600AFCC59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE52124A228176BA00AFCC59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE52124B228176BA00AFCC59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE521264228176BA00AFCC59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE521265228176BA00AFCC59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE521267228176BA00AFCC59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD7E0072BB64C7D399829FFB /* Pods-Dance.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MR34XK582H;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Dance/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shogo.Dancy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT)Dance/bridge.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CE521268228176BA00AFCC59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6FEBD1D5F060E2ABE07C970 /* Pods-Dance.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MR34XK582H;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Dance/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shogo.Dancy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT)Dance/bridge.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CE52126A228176BA00AFCC59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B016AC73CE4BB57717494B5 /* Pods-DanceTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MR34XK582H;
+				INFOPLIST_FILE = DanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shogo.DanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dance.app/Dance";
+			};
+			name = Debug;
+		};
+		CE52126B228176BA00AFCC59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6D5CA228EE1DA7D5B9AD2D8 /* Pods-DanceTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MR34XK582H;
+				INFOPLIST_FILE = DanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shogo.DanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dance.app/Dance";
+			};
+			name = Release;
+		};
+		CE52126D228176BA00AFCC59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 862548C1DD916213CB3312AE /* Pods-DanceUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MR34XK582H;
+				INFOPLIST_FILE = DanceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shogo.DanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dance;
+			};
+			name = Debug;
+		};
+		CE52126E228176BA00AFCC59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58D4EA4B13C1B1236BEB6113 /* Pods-DanceUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MR34XK582H;
+				INFOPLIST_FILE = DanceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shogo.DanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dance;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE521239228176B600AFCC59 /* Build configuration list for PBXProject "Dance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE521264228176BA00AFCC59 /* Debug */,
+				CE521265228176BA00AFCC59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE521266228176BA00AFCC59 /* Build configuration list for PBXNativeTarget "Dance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE521267228176BA00AFCC59 /* Debug */,
+				CE521268228176BA00AFCC59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE521269228176BA00AFCC59 /* Build configuration list for PBXNativeTarget "DanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE52126A228176BA00AFCC59 /* Debug */,
+				CE52126B228176BA00AFCC59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE52126C228176BA00AFCC59 /* Build configuration list for PBXNativeTarget "DanceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE52126D228176BA00AFCC59 /* Debug */,
+				CE52126E228176BA00AFCC59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE521236228176B600AFCC59 /* Project object */;
+}

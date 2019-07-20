@@ -1,0 +1,27 @@
+PODS:
+  - Alamofire (4.8.2)
+  - AWSCore (2.9.7)
+  - AWSS3 (2.9.7):
+    - AWSCore (= 2.9.7)
+  - Cosmos (19.0.3)
+  - Stripe (15.0.1)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AWSS3
+  - Cosmos
+  - Stripe
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AWSCore: c98ab96784580d7a141c6f1999aa919ef45a312c
+  AWSS3: 653807428bfb6368dbe54fe1c7f0b81bffa5dba7
+  Cosmos: a6fb17284281fa12cf4c85c2efecd440a215ec44
+  Stripe: 2c4d0a88817361a102886315ff452d90f65e898b
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 60d1a9dc9a28bd61a21c035b4aa0f072d81e0595
+
+COCOAPODS: 1.4.0
